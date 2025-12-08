@@ -1,0 +1,122 @@
+
+		.required {
+
+		color: #FF0000;
+
+		font-size:16px;
+
+		font-weight:italic;
+
+		padding-left:10px;
+
+		}
+
+		.message {
+
+		color: #FF0000;
+
+		text-align: center;
+
+		width: 100%;
+
+		}
+
+
+                        body {  
+                                font: 100% Lucida Grande, Arial, Helvetica, sans-serif;
+                                color: #2e2e2e;
+                                background: #222d32;
+                                margin: 0px;
+                                padding: 0px;
+                        }
+                        a {
+                                color: #2e2e2e;
+                                text-decoration: none;
+                        }
+                        .container {
+                                background: #FFF;
+                                display: block;
+                        }
+                        .content {
+                                width: 760px;
+				height: 80%;
+                                margin: 40px auto 0px auto;
+                                text-align: center;
+                                padding: 40px 0px 0px 0px;
+                        }
+                        .sprite {
+                                background-image: url('/secure/logo.jpg');
+                        }
+                        .mystate {
+                                width: 152px;
+                                height: 91px;
+                                background-position:0px 0px;
+                                margin: 0px auto;
+                        }
+                        h2 {
+                                border-bottom: 1px solid #000;
+                                padding: 0px 0px 14px 0px;
+                                margin: 25px 0px 0px 0px;
+                                font-weight: normal;
+                        }
+                        p {
+                                font-size: .9em;
+                                line-height: 1.4em;
+                        }
+                        .boxes  {
+                                margin: 50px 0px 0px;
+                        }
+                        .box {  
+                                display: block;
+                                border-radius: 6px;
+                                -moz-border-radius: 6px;
+                                -webkit-border-radius: 6px;
+                                background: #222d32;
+                                width: 170px;
+                                float: left;
+                                height: 55px;
+                                padding: 15px 10px 25px 30px;
+                        }
+                        .box:hover {
+                                background: #424242;
+                        }
+                        .boxes .arrow {
+                                width: 38px;
+                                height: 38px;
+                                background-position: 0px -91px;
+                                float: left;
+                        }
+                        .boxes .lock {
+                                width: 38px;
+                                height: 38px;
+                                background-position: 0px -128px;
+                                float: left;
+                        }
+                        .boxes .text {
+                                width: 100px;
+                                margin: 3px 0px 0px 2px;
+				font-size: 18px;
+				color: #ffffff;
+
+                        }
+                        .boxes .left {
+                                margin: 0px 0px 0px 30px;
+                        }
+                        .boxes .right {
+                                margin: 0px 0px 0px 30px;
+                        }
+                        .footer {
+                                font-size: .8em;
+                                padding: 40px 0px 30px 0px;
+                                clear: both;
+                                line-height: 1.7em;
+                        }
+                .footer a{
+color:#f00b0b;
+text-decoration:bold}
+
+        img.img32 {
+        border:0;
+        margin:0 10px;
+        }
+                </style>
