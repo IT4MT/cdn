@@ -4,7 +4,7 @@ function openFilesModal(link) {
     modal.className = 'pdocrud-files-modal';
     
     // Check if URL is an image file
-    var imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.bmp'];
+    var imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.bmp', '.mp4'];
     var isImage = imageExtensions.some(ext => url.toLowerCase().endsWith(ext));
     
     if (isImage) {
