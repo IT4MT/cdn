@@ -4,7 +4,6 @@ function submitFilterForm(event) {
     // Get form values
     var curyear = document.getElementById('curyear').value;
     var curmo = document.getElementById('curmo').value;
-    var curday = document.getElementById('curday').value;
     var euser = document.getElementById('euser').value;
     var source = document.getElementById('source').value;
     var category = document.getElementById('category').value;
@@ -12,7 +11,6 @@ function submitFilterForm(event) {
     // Build query string
     var params = 'curyear=' + encodeURIComponent(curyear) + 
                  '&curmo=' + encodeURIComponent(curmo) + 
-                 '&curday=' + encodeURIComponent(curday) + 
                  '&euser=' + encodeURIComponent(euser) + 
                  '&source=' + encodeURIComponent(source) + 
                  '&category=' + encodeURIComponent(category);
