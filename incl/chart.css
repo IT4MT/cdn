@@ -1,0 +1,22 @@
+#md {
+font-weight: bold;
+}   
+  
+
+.evenRow {
+  background-color: #f0f0f0; /* Light gray for even rows */
+} 
+.oddRow {
+  background-color: #ffffff; /* White for odd rows */
+} 
+/* Optional: Style for selected rows */
+.selectedRow {
+  background-color: #b0b0b0; /* Darker gray for selected rows */
+  font-weight: bold;
+}
+
+.weekendRow {
+  background-color: #efefef; /* Moccasin color for weekend rows */
+}     
+    
+
