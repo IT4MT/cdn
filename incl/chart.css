@@ -4,7 +4,7 @@ font-weight: bold;
   
 
 .evenRow {
-  background-color: #f0f0f0; /* Light gray for even rows */
+  background-color: #eee; /* Light gray for even rows */
 } 
 .oddRow {
   background-color: #ffffff; /* White for odd rows */
@@ -16,7 +16,7 @@ font-weight: bold;
 }
 
 .weekendRow {
-  background-color: #d6e9f8; /* Moccasin color for weekend rows */
+  background-color: #e7e9f9; /* Moccasin color for weekend rows */
 }     
     
 
